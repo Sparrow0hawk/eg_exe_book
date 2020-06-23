@@ -1,0 +1,11 @@
+name: exebook
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=20
+  - pip:
+    - jupyter-book
+
